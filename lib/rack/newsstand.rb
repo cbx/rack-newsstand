@@ -1,6 +1,6 @@
 require 'rack'
 require 'sinatra/base'
-require 'sequel'
+require 'sequel/no_core_ext'
 
 module Rack
   class Newsstand < Sinatra::Base
